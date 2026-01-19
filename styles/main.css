@@ -1,0 +1,296 @@
+.logo-side {
+    display: flex;
+    align-items: center;
+    height:350px ;
+    background: linear-gradient(98deg, rgb(17, 10, 107) 21.2%, rgb(27, 70, 211) 102.2%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    flex-wrap: 0;
+}
+
+.logo-text {
+    margin-left: 40px;
+    margin-right: 0;
+    width: auto;
+    max-width: none;
+}
+
+.ivkovic-text {
+    font-size: 55px;
+    font-family: Holtwood One SC;
+    color: white;
+}
+
+@media (max-width: 1140px) {
+  .ivkovic-text {
+    font-size: clamp(20px,3.9vw,55px)  ;
+  }
+}
+
+
+.logo-image {
+    display: flex;
+    margin-left: 30px;
+}
+
+.ivkovic-roll {
+    height: clamp(80px, 17.9vw, 250px);
+    width: auto;
+    flex-shrink: 0;
+}
+
+.products {
+    margin-top: 40px;
+}
+
+.products-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.products-title-text {
+    font-family: Lalezar;
+    font-size: 37px;
+    font-weight: 600;
+    
+}
+
+.slash-icon {
+    height: 45px;
+    width: 60px;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    margin-left: 40px;
+    margin-right: 40px;
+    column-gap: 40px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.termo-role,
+.papiri-medicina,
+.telefax-role {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr; 
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; 
+    transition: box-shadow 0.3s; 
+    background-color: white;
+    border-radius: 20px;
+}
+
+.termo-role:hover,
+.papiri-medicina:hover,
+.telefax-role:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.termo-role-title,
+.papiri-medicina-title,
+.telefax-role-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: Lalezar;
+    line-height: 30px;
+}
+
+.termo-role-text {
+    margin-left: 15px;
+    line-height: 30px;
+    margin-top: -20px;
+}
+
+.termo-role-image,
+.papiri-medicina-image,
+.telefax-role-image {
+  mix-blend-mode: multiply;
+  border-radius: 10px;
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.termo-role-image-div,
+.papiri-medicina-image-div,
+.telefax-role-image-div {
+    min-width: 0;
+    aspect-ratio: 1/1;
+}
+
+.termo-role-image-div {
+    margin-left: 30px;
+    margin-right: 30px ;
+    margin-bottom: -30px;
+}
+
+
+.papiri-medicina-image-div {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: -200px;
+}
+
+.telefax-role-image-div {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 100px;
+    margin-bottom: -20px;
+}
+
+
+.about-us-title {
+    font-size: 37px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.about-us {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 160px;
+    margin-bottom: 130px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: box-shadow 0.5s;
+    padding-top: 3px;
+    cursor: pointer;
+    background-color: white;
+    width: auto;
+
+}
+
+.about-us:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 25px 13px -10px, rgba(0, 0, 0, 0.2) 0px 0px 20px 7px;
+    transition: box-shadow 0.5s;
+}
+
+.about-us-image {
+   height: clamp(100px, 28.6vw, 400px);
+   margin-left: 70px;
+   margin-bottom: 60px;
+   border-radius: 20px;
+   transition: transform 0.45s ease;
+}
+
+.about-us-image:hover {
+    transform: scale(1.2);
+    transition: transform 0.45s ease;
+}
+
+.about-us-text {
+    margin-left: 20px;
+    margin-right: 40px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+@media (max-device-width: 1200px) {
+  .about-us-text {
+    font-size: 14px;
+  }
+}
+
+@media (max-device-width: 950px) {
+  .about-us-text {
+    font-size: 13px;
+  }
+}
+@media (max-device-width: 768px) {
+  .about-us-text {
+    font-size: 12px;
+  }
+}
+
+@media (max-device-width: 680px) {
+  .about-us-text {
+    font-size: 11px;
+  }
+}
+
+@media (max-device-width: 600px) {
+  .about-us-text {
+    font-size: 9px;
+  }
+}
+
+@media (max-device-width: 520px) {
+  .about-us-text {
+    font-size: 8px;
+  }
+}
+
+@media (max-device-width: 480px) {
+  .about-us-text {
+    font-size: 7px;
+  }
+}
+
+@media (max-device-width: 380px) {
+  .about-us-text {
+    font-size: 6px;
+  }
+}
+.about-us-grid {
+    display: grid;
+    grid-template-columns: 450px 1fr;
+    
+}
+
+
+ .products-use-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+ }
+
+ .products-use-grid-divs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    background: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: 
+   color 0.5s ease,
+   background-color 0.5s ease,
+   box-shadow 0.5s ease;
+    
+ }
+ 
+
+ .products-images {
+    height: 100px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+ }
+
+ .products-images-text {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    margin-top: 10px;
+ }
+
+ .products-use-grid-divs:hover {
+    background-color: rgb(17, 10, 107);
+    color: white;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+   transition: 
+   color 0.5s ease,
+   background-color 0.5s ease,
+   box-shadow 0.5s ease;
+   cursor: pointer;
+ }

@@ -1,0 +1,70 @@
+.header {
+    display: flex;
+    height: 65px;
+    justify-content: space-between;
+     background: linear-gradient(180deg, #ffffff 30.2%, #b0acac 102.2%);
+    font-size: 15px;
+   
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    z-index: 1;
+}
+    
+
+.working-hours {
+    display: flex;
+    align-items: center; 
+    margin-left: 30px; 
+    flex-shrink: 0;
+       
+}
+
+.working-hours-icon,
+.location-icon,
+.mail-icon,
+.phone-icon {
+    height:25px;
+    
+  
+}
+
+.working-hours-text, 
+.location-text,
+.mail-text,
+.phone-numbers {
+    font-size: 12px;
+    line-height: 5px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.mail {
+   display: flex;
+   align-items: center;
+   margin-right: 30px;
+   flex-shrink: 0;
+}
+
+.mail-mail {
+    width: 100%;
+}
+
