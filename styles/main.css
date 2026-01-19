@@ -171,8 +171,8 @@
 }
 
 .about-us-image {
-   height: clamp(100px, 28.6vw, 400px);
-   margin-left: 70px;
+   height: clamp(100px, 30.6vw, 500px);
+   margin-left: 50px;
    margin-bottom: 60px;
    border-radius: 20px;
    transition: transform 0.45s ease;
@@ -184,7 +184,7 @@
 }
 
 .about-us-text {
-    margin-left: 20px;
+    margin-left: -20px;
     margin-right: 40px;
     font-size: 16px;
     line-height: 1.5;
@@ -193,48 +193,48 @@
 
 @media (max-device-width: 1200px) {
   .about-us-text {
-    font-size: 14px;
+    font-size: 15px;
   }
 }
 
 @media (max-device-width: 950px) {
   .about-us-text {
-    font-size: 13px;
+    font-size: 14px;
   }
 }
 @media (max-device-width: 768px) {
   .about-us-text {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 
 @media (max-device-width: 680px) {
   .about-us-text {
-    font-size: 11px;
+    font-size: 12px;
   }
 }
 
 @media (max-device-width: 600px) {
   .about-us-text {
-    font-size: 9px;
+    font-size: 11px;
   }
 }
 
 @media (max-device-width: 520px) {
   .about-us-text {
-    font-size: 8px;
+    font-size: 10px;
   }
 }
 
 @media (max-device-width: 480px) {
   .about-us-text {
-    font-size: 7px;
+    font-size: 9px;
   }
 }
 
 @media (max-device-width: 380px) {
   .about-us-text {
-    font-size: 6px;
+    font-size: 8px;
   }
 }
 .about-us-grid {
